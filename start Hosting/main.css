@@ -1,0 +1,67 @@
+main{
+ padding-top: 4rem;
+}
+.signup-title{
+ text-align: center;
+ color: #ff5454;
+}
+.signup-form{
+ width: 60%;
+ margin: 1rem auto;
+ padding: 1rem;
+ /* max-width: 35rem; */
+}
+label,select,input,button{
+ display: block;
+ margin: 1rem;
+ font-weight: bold;
+}
+select{
+ font-weight: normal;
+ height: 1.5rem;
+}
+option{
+ background: #d5ffdc;
+}
+input{
+ background: #faacac;
+ height: 1.5rem;
+ border: 1px solid red;
+}
+select,input{
+ width: 100%;
+}
+.checkbox{
+ width: auto;
+ display: inline-block;
+ vertical-align: middle;
+ margin: 0 0.5;
+ height: 1rem;
+ width: 1rem;
+ border: 1px solid red;
+}
+.agree{
+ display: inline-block;
+ vertical-align: middle;
+ margin: 0 0;
+}
+@media(max-width:40rem){
+ .signup-form{
+  width: 100%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+ }
+}
+@media(max-width:40rem){
+ main{
+  padding-top: 7rem;
+ }
+}
+@media(min-width:1500px){
+ .signup-form{
+  width: 30%;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 35rem;
+ }
+}

@@ -1,0 +1,85 @@
+main{
+ padding-top: 3.5rem;
+}
+.background{
+ background: url(../images/plans-background.jpg);
+ background-size: cover;
+ height: 100vh;
+ width: 100vw;
+ position: fixed;
+ z-index: -1;
+}
+
+.package{
+ /* margin-top: 3.5rem; */
+ background: #d5ffdc;
+ width: 80%;
+ border: 4px solid #0e4f1f;
+ margin: 2rem 0rem;
+ position: relative;
+}
+.package:hover,
+.package:active{
+ border: 4px solid #ff5454;
+}
+/* sub-id starts*/
+#plus{
+ margin-top: 3.5rem;
+ margin-bottom: 2rem;
+ border-left: none;
+}
+
+#premium{
+ background: #0e4f1f;
+ border-left: none;
+}
+/* sub_id ends */
+.package a{
+ text-decoration: none;
+}
+.package_title{
+ color: black;
+}
+.package_title_premium{
+ color: white;
+}
+.package a{
+ display: block;
+}
+.package a > div{
+ padding: 2rem;
+}
+.package_subtitle{
+ color: #858585;
+}
+.package_info{
+ color: #0e4f1f;
+ background: white;
+ padding: 1rem;
+ border: 1px solid #0e4f1f;
+ font-size: 1.2rem;
+}
+#free{
+ float: right;
+ border-right: none;
+ text-align: right ;
+}
+.clear_fix{
+ clear: both;
+}
+.recommend{
+ color: white;
+ background: #ff5454;
+ display: inline;
+ font-size: 0.8rem;
+ padding: 0.5rem;
+ position: absolute;
+ top: 0;
+ right: 0;
+ margin: 1rem;
+}
+@media(max-width:40rem){
+ main{
+  padding-top: 6rem;
+ }
+}
